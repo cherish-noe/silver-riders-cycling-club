@@ -1,0 +1,769 @@
+/* Start of Home page */
+body{
+	width:100%;
+	margin:auto;
+}
+
+.mainImage{
+	margin-left:-10px;
+	margin-top:70px;
+}
+
+.homelogo{
+	margin-top:-121px;
+}
+
+.homelogo:hover{
+	background-color:#fff;
+}
+
+nav {
+    border-top: 5px solid #2d5986;
+    background-color:white;
+    display: block;
+    overflow: hidden; 
+    height:90px;
+	width:100%;
+	margin-top:-8px;
+	box-shadow:5px 5px 18px #e0ebeb;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    transition: all 0.2s;
+	margin-right:15px;
+	margin-top:19px;
+	border-radius:18px;
+	border: 1px solid white;
+	float:left;
+	margin-left:10px;
+}
+
+nav > ul > li > a {
+    color: #009999 ;
+    display: block;
+    line-height: 10px;
+    padding: 19px 16px;
+    text-decoration: none;
+	font-size:20px;
+	font-weight:bold;
+	font-family:bell gothic std;
+	font-style:italic;
+}
+
+nav li:hover {
+    background-color: #d0e1e1;
+}
+
+nav li a:hover{
+	color:black;
+}
+
+nav li a.active {
+    background-color: #00b3b3 ;
+	margin-right:-5px;
+	margin-top:-5px;
+	color:white;
+	border-radius:13px;
+	border: 1px solid white;
+	padding: 15px 16px;
+}
+
+.active:hover{
+	background-color:#c2d6d6;
+}
+
+nav img{
+	text-align:left;
+}
+
+footer{
+	width:100%;
+    background-color:#009999 ;
+	height:300px;
+}
+
+#align{
+	margin-left: 520px;
+	float:left;
+	padding-top:10px;
+}
+
+h2{
+	float:left;
+	color:#fff;
+	font-family:"MS Serif", "New York", serif;
+	font-weight:bold;
+}
+
+#align1{
+	clear:both;
+	margin-left: 370px;
+	padding-top: 10px;
+}
+
+#align2{
+	clear:both;
+	margin-left: 470px;
+	padding-top: 25px;
+}
+
+#align3{
+	clear:both;
+	margin-left: 505px;
+	padding-top: 40px;
+}
+
+footer div a{
+	text-decoration:none;
+	list-style-type:none;
+	font-family:"MS Serif", "New York", serif;
+	font-weight:bold;
+	padding-left: 20px;
+	color:#004d00;
+}
+
+footer p a{
+	text-decoration:none;
+	list-style-type:none;
+	font-family:bell gothic std;
+	font-weight:bold;
+	padding-left: 20px;
+	color:#004d00;
+}
+
+/* End of Home page */
+
+
+/* Start of AboutUs page */
+
+.AboutContent h1{
+	padding:10px 20px;
+	width:1000px;
+	margin-left:150px;
+	background-color:#009999;
+	color:white;
+	text-align:center;
+	margin-bottom:-15px;
+}
+
+.history{
+	margin-top:-519px;
+	margin-left:165px;
+	width:189px;
+	padding:35px 20px;
+	height:500px;
+	
+}
+
+.AboutContent span{
+	display:block;
+	font-size:18px;
+	word-spacing:3px;
+	padding-bottom:20px;
+	width:400px;
+	text-align:justify;
+}
+
+.AboutImg{
+	margin-left:150px;
+	margin-top:15px;
+	width:1040px;
+	height: 550px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+}
+
+.btnDetail{
+	width:400px;
+	margin-left:0px;
+	padding: 10px 18px;
+    background-color: #990033 ;
+	border-radius: 40px;
+	font-size:17px;
+}
+
+.btnDetail:hover{
+	background-color: #e6004c;
+}
+
+/* End of AboutUs page */
+
+
+/* Start of Groups page */
+
+.grad{
+	background:linear-gradient(white,lightblue,lightblue, white);
+}
+
+.GroupContent{
+	margin-left:23%;
+	width:700px;
+	margin-bottom:40px;
+}
+
+.GroupContent h1{
+	color:#990033;
+	font-weight:bold;
+	font-size:60px;
+}
+
+.GroupContent p{
+	margin-top:-30px;
+}
+
+.GroupContent img{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+}
+
+.btnJoin{
+	width:700px;
+	margin-top:25px;
+	padding: 10px 18px;
+    background-color: #990033 ;
+	border-radius: 40px;
+	font-size:17px;
+}
+
+.btnJoin:hover{
+	background-color: #e6004c;
+}
+
+/* End of Groups page */
+
+
+/* Start of Event page */
+
+.EventContent{
+	height:550px;
+	margin-left:40px;
+}
+
+.EventContent h1{
+	padding:10px 20px;
+	width:1070px;
+	margin-left:80px;
+	margin-bottom:10px;
+	background-color:#009999;
+	color:white;
+	text-align:center;
+}
+
+.overlayContainer{
+	position:relative;
+	width:300px;
+	height:200px;
+	float:left;
+	margin-left:80px;
+	margin-bottom:80px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: -4px;
+    left: 10px;
+	top:180px;
+    font-size: 18px;
+	color:white;
+}
+
+.bottomleft p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:lighter;
+	line-height:10px;
+}
+
+.bottomleft span{
+	font-weight:bold;
+	font-size:16px;
+}
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 250px;
+  width: 350px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+}
+
+.overlayContainer:hover .overlay1{
+	opacity:0.8;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  margin-top:-20px;
+  margin-left:-5px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:lighter;
+	line-height:20px;
+	width:250px;
+}
+
+.text li{
+	font-size:14px;
+	line-height:20px;
+}
+
+.overlayContainer:hover .overlay{
+	width:300px;
+	left:0;
+}
+
+.annualContainer{
+	clear:both;
+	margin-left:120px;
+	width:1115px;
+}
+
+.annualContainer h1{
+	border-bottom:5px solid #000;
+	padding-bottom:20px;
+	padding-top:40px;
+	font-size:45px;
+	color:#990033;
+}
+
+.annualImg{
+	float:left;
+	margin-right:33px;
+	margin-bottom:20px;
+}
+
+.annualImg button{
+	width:625px;
+	border-radius:20px;
+	background-color:#990033;
+	font-size:16px;
+}
+
+.annualImg button:hover{
+	background-color:#e6004c;
+}
+
+.clear{
+	clear:left;
+}
+
+/* End of Event page */
+
+
+/* Start of ClubRecords page */
+
+.recordContent table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 1230px;
+    border: 1px solid #ddd;
+	margin-left:50px;
+	margin-bottom:40px;
+}
+
+.recordContent th, td {
+    border: none;
+    text-align: left;
+    padding: 8px;
+}
+
+.recordContent th{
+	font-size:25px;
+}
+
+.recordContent tr:nth-child(odd){background-color: #f2f2f2;}
+
+.recordContent .style{
+	font-size:22px;
+	font-weight:bold;
+	text-align:center;
+	padding:14px;
+}
+
+.recordContent h1{
+	padding:10px 20px;
+	width:1190px;
+	margin-left:50px;
+	margin-bottom:0px;
+	background-color:#009999;
+	color:white;
+	text-align:center;	
+}
+
+/* End of ClubRecords page */
+
+
+/* Start of Join page */
+
+.joinContent{
+	margin-top:0px;
+	height:1550px;
+}
+
+.joinContent h1{
+	padding:10px 20px;
+	width:760px;
+	margin-left:250px;
+	background-color:#009999;
+	color:white;
+	text-align:center;
+}
+
+.joinContent h3{
+	border-bottom:5px solid #000;
+	padding-bottom:20px;
+	padding-top:40px;
+	font-size:45px;
+	color:#990033;
+	text-align:center;
+}
+
+.priceBox{
+	width:268.608px;
+	float:left;
+	border-bottom:2px solid #ddd;
+	border-left:1px thin #ddd;
+	border-right:1px dashed #334d4d;
+	margin-bottom:20px;
+}
+
+.priceBox1{
+	width:268.608px;
+	float:left;
+	border-bottom:2px solid #ddd;
+	border-left:1px thin #ddd;
+	margin-bottom:20px;
+	
+}
+
+.priceBox p{
+	text-align:center;
+	padding:2px 18px;
+}
+
+.priceBox1 p{
+	text-align:center;
+	padding:2px 18px;
+}
+
+.price{
+	font-size:23px;
+}
+.memebership{
+	font-size:18px;
+	font-weight:bold;
+}
+
+.btnget{
+	width:200px;
+	background-color:#990033;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #990033;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+	margin-bottom:15px;
+}
+
+button:hover{
+	background-color:#e6004c;
+}
+
+/* Start of Registeration Form */
+
+.register{
+	margin-left:250px;
+	width: 800px;
+}
+
+.register form {
+    border: 3px solid #f1f1f1;
+}
+
+.container td{
+	padding-left:40px;
+	color:#990033;
+}
+
+.container input, textarea{
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+	border: 1px solid #F7B3C9;
+	border-radius: 7px 7px 7px 7px;
+	background-color: #B3E0E0;
+	color:#000;
+	font-size:14px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 30%;
+    border-radius: 40%;
+}
+
+.btnRegister{
+	margin-top:-170px;
+	margin-left:400px;
+	width: auto;
+    padding:14px 18px;
+    background-color: #009999;
+	border-radius:15px;
+}
+
+.btnRegister:hover{
+	background-color:#00cccc;
+}
+
+.btnClear {
+    width: 100px;
+    padding: 14px 18px;
+    background-color: #990033;
+	border-radius:15px;
+	margin-top:-160px;
+}
+
+.gender{
+	float:left;
+}
+
+.genderF{
+	float:right;
+}
+table{
+ 		margin-left:170px;
+ 	 	font-size: 20px;
+ 	 }
+
+.goLogin{
+	float: right;
+	margin-top:-15px;
+    padding-top: 16px;
+}
+
+.Bottom-container
+{
+	height:50px;
+	padding: 16px;
+	background-color:#f1f1f1;
+}
+
+/* End of Registeration Form */
+
+
+/* End of Join page */
+
+
+
+/* Start of Tour page */
+
+.tourContent{
+	height:2680px;
+	margin-left:90px;
+}
+
+.tourContent h1{
+	padding:10px 20px;
+	width:1070px;
+	margin-left:30px;
+	background-color:#009999;
+	color:white;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+.tourContent h2{
+	border-bottom:5px solid #000;
+	padding-bottom:20px;
+	font-size:40px;
+	color:#990033;
+	margin-left:30px;
+	width:1110px;
+}
+
+.display{
+	float:left;
+	margin-left:30px;
+	margin-bottom:10px;
+}
+
+.displayPhoto{
+	float:left;
+	margin-left:30px;
+	margin-bottom:-15px;
+	height:200px;
+	position:relative;
+}
+
+.displayNote{
+	float:left;
+	margin-left:80px;
+	margin-bottom:10px;
+	height:300px;
+	color:#004d00;
+}
+
+.displayPhoto span{
+	display:none;
+}
+
+.displayPhoto a:hover span{
+	display:block;
+ 	position: absolute;
+ 	top: -314px;
+	left: 10px;
+ 	text-align: center;
+	margin-left:-10px;
+	transition:all 0.5s;
+}
+
+.btnscribe{
+	width:1060px;
+	margin-top:-30px;
+	margin-left:30px;
+	font-size:16px;
+}
+
+
+/* End of Tour page */
+
+
+/*Start of ContactUs page#2d5986*/
+
+.contactContent{
+ 	border: 0.5px #fff solid;
+	box-shadow: 2px 0.5px 0px #CCC;
+	width:695px;
+	height:650px;
+	margin-left:120px;
+}
+
+.contactContent > form {
+	margin-left:30px;
+	width:100px;
+	border: 0px;
+	
+}
+
+.contactContent input, textarea{
+	width: 230px;
+    padding: 5px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #F7B3C9;
+	border-radius: 7px 7px 7px 7px;
+	background-color: #B3E0E0;
+	color:#000;
+	font-size:14px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+.contactContent span{
+	color: #990033;
+	display:inline;
+	font-size:18px;
+}
+
+.contactContent h1{
+	padding:10px 20px;
+	margin-top:0px;
+	width:1026px;
+	background-color:#009999;
+	color:white;
+	text-align:center;
+}
+
+.contactContent2{
+	margin-left:330px;
+	margin-top:-395px;
+	
+}
+
+.contactContent2 input{
+	width: 100px;
+}
+
+.level{
+	width:250px;
+}
+
+.btnSumbit {
+	margin-left:20px;
+    width: 570px;
+    padding: 10px 18px;
+    background-color: #990033 ;
+	border-radius: 40px;
+	font-size:17px;
+}
+
+.btnSumbit:hover{
+	background-color: #e6004c;
+}
+
+.contactContent3 {
+	margin-left:650px;
+	margin-top:-607px;
+	height:530px;
+}
+
+.contactContent3 span{
+	color: #030;
+	font-size:15px;
+	font-family:bell gothic std;
+	font-style:italic;	
+}
+
+.contactContent3 img{
+	border-radius:5px;
+}
+
+.contactContent3 table{
+	background-color:#EBF4FA;
+}
+
+.contactContent3 td {
+    
+    text-align: left;
+    padding: 28px;
+}
+
+.contactContent3 td{
+	height:38px;
+}
+
+.contactContent3 a{
+	text-decoration:none;
+}
+
+/*End of ContactUs page*/
+
